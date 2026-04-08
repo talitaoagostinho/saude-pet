@@ -1,4 +1,4 @@
 export interface RegistroPeso{
-   // data: Date;
+   data: Date;
     peso: number;
 }
