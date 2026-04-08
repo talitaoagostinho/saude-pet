@@ -1,0 +1,13 @@
+{
+  "name": "saude-pet",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node-dev": "^2.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
