@@ -25,8 +25,9 @@ Com o Node.js já instalado na máquina:
 - Execute o programa com
 ``` npm run dev ```
 
-## 📐 Modelagem de Dados (v2.0)
-Planejamento da estrutura de entidades (Pet, Registro) e relacionamentos para suporte a múltiplos animais e persistência em banco de dados SQL. [DER em desenvolvimento]
+## Modelagem de Dados (v2.0)
+A estrutura de dados foi planejada para suportar múltiplos pets e histórico de vacinação. 
+[Clique aqui para ver o DER e os Requisitos detalhados](./docs/MODELAGEM.md)
 
 ## Roadmap de Evolução
 
