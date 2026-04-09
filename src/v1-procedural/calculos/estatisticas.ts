@@ -1,4 +1,4 @@
-import type { RegistroPeso } from '../types';
+import type { RegistroPeso } from '../v1-procedural/types';
 
 export function calcularMedia(historico: RegistroPeso[]): number { // o parametro "historico" que vai ser recebido é do tipo "RegistroPeso" (um array que contém peso e data). o ": number" depois é para indicar que esse parametro vai buscar apenas o dado desse array que for tipo number (no caso, o peso)
     if (historico.length === 0) return 0;

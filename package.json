@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "dev": "tsx src/main.ts"
+  "dev": "tsx src/main.ts",
+  "dev2": "tsx src/app.ts"
 },
   "devDependencies": {
     "@types/node": "^20.19.39",
