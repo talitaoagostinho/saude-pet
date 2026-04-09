@@ -6,6 +6,7 @@ Um utilitário de linha de comando (CLI) desenvolvido em Node.js e TypeScript pa
 - Tratamento de Dados Inteligente: Aceita entradas com vírgula (padrão brasileiro) ou ponto, convertendo-os automaticamente para cálculos precisos.
 - Estatísticas em Tempo Real: Calcula a média de peso do animal e identifica o registro mais recente.
 - Interface em Loop: Permite múltiplos cadastros em uma única sessão sem precisar reiniciar o programa.
+- Suporte a Datas BR: Aceita entradas no formato DD/MM/AAAA com tratamento automático de fuso horário local.
 
 ## Tecnologias Utilizadas
 - Node.js (v22+)
@@ -23,6 +24,9 @@ Com o Node.js já instalado na máquina:
 ``` npm install ```
 - Execute o programa com
 ``` npm run dev ```
+
+## 📐 Modelagem de Dados (v2.0)
+Planejamento da estrutura de entidades (Pet, Registro) e relacionamentos para suporte a múltiplos animais e persistência em banco de dados SQL. [DER em desenvolvimento]
 
 ## Roadmap de Evolução
 
@@ -46,6 +50,8 @@ Neste projeto, foquei em entender e resolver problemas reais de arquitetura e l�
 - Modularização: Separação de responsabilidades entre funções de cálculo, tipos e o fluxo principal do sistema.
 - Tratamento de Tipos: Conversão rigorosa de strings para números para evitar erros de concatenação em cálculos matemáticos.
 - Injeção de Dependência: Passagem da interface de leitura como parâmetro entre módulos para evitar conflitos de entrada no terminal.
+- Persistência de Dados Básica: Implementação do módulo 'fs' do Node.js para salvar históricos em arquivos .txt.
+- Manipulação de Strings e Datas: Uso de métodos como split(), trim() e Template Literals para converter entradas de usuários em objetos Date válidos.
 
 ## Autor
 Feito por Talita Oliveira  
