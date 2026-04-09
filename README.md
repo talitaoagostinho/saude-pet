@@ -1,17 +1,6 @@
 ## Saúde Pet - Rastreador de Peso
 Um utilitário de linha de comando (CLI) desenvolvido em Node.js e TypeScript para ajudar donos de pets a monitorar a saúde de seus animais, registrando e analisando o histórico de peso.
 
-## Como rodar:
-Com o Node.js já instalado na máquina:
-- Clone o repositório com o comando
-``` git clone https://github.com/talitaoagostinho/saude-pet.git ```
-- Entre na pasta do projeto digitando
-``` cd saude-pet ```
-- Instale as dependências necessárias
-``` npm install ```
-- Execute o programa com
-``` npm run dev ```
-
 ## Funcionalidades
 - Cadastro de Pesos: Registro dinâmico de peso com suporte a datas customizadas ou automáticas.
 - Tratamento de Dados Inteligente: Aceita entradas com vírgula (padrão brasileiro) ou ponto, convertendo-os automaticamente para cálculos precisos.
@@ -23,6 +12,17 @@ Com o Node.js já instalado na máquina:
 - TypeScript
 - tsx (para execução rápida em desenvolvimento)
 - ESModules: Utilização de import/export nativos.
+
+## Como rodar:
+Com o Node.js já instalado na máquina:
+- Clone o repositório com o comando
+``` git clone https://github.com/talitaoagostinho/saude-pet.git ```
+- Entre na pasta do projeto digitando
+``` cd saude-pet ```
+- Instale as dependências necessárias
+``` npm install ```
+- Execute o programa com
+``` npm run dev ```
 
 ## Roadmap de Evolução
 
