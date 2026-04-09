@@ -1,0 +1,4 @@
+Data: 28/11/2025 | Peso 2.5kg
+Data: 05/01/2026 | Peso 4.5kg
+Data: 25/03/2026 | Peso 10kg
+Data: 09/04/2026 | Peso 13kg

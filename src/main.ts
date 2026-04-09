@@ -12,13 +12,17 @@ async function main() {
     while (rodando) {
         await Funcoes.cadastrarNovoPeso(rl);
 
-        const resposta = await rl.question("\nDeseja cadastrar outra informação?");
+        const resposta = await rl.question("\nDeseja cadastrar outra informação? (Digite 'Sim' para continuar)\n");
         
-        if (resposta.toLowerCase() !== 's') rodando = false;
+        if (resposta.toLowerCase() !== 'sim') {
+            Funcoes.estatisticas();
+            rodando = false;
+        }
     }
 
-    Funcoes.estatisticas();
-    console.log("\n\nAcesso finalizado. Até logo!");
+    console.clear();
+
+    console.log("\n\nAcesso finalizado. Até logo!\n");
 
     rl.close();
 }
