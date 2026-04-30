@@ -1,4 +1,4 @@
-## Saúde Pet
+# Saúde Pet
 Um utilitário de linha de comando (CLI) desenvolvido em Node.js e TypeScript para ajudar donos de pets a monitorar a saúde de seus animais, registrando e analisando o histórico de peso.
 
 ## Funcionalidades
@@ -61,6 +61,10 @@ Neste projeto, foquei em entender e resolver problemas reais de arquitetura e l�
 - **Persistência de Dados Básica:** Implementação do módulo 'fs' do Node.js para salvar históricos em arquivos .txt.
 - **Manipulação de Strings e Datas:** Uso de métodos como split(), trim() e Template Literals para converter entradas de usuários em objetos Date válidos.
 
-## Autor
-Feito por Talita Oliveira  
-LinkedIn: https://www.linkedin.com/in/talitaoagostinho
+## Licença
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Contato
+Desenvolvido por **Talita Oliveira** - **LinkedIn:** [linkedin.com/in/talitaoagostinho](https://www.linkedin.com/in/talitaoagostinho/)
+- **GitHub:** [github.com/talitaoagostinho](https://github.com/talitaoagostinho)
+- **Email:** talitaoagostinho.en2@gmail.com
