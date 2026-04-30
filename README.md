@@ -63,4 +63,4 @@ Neste projeto, foquei em entender e resolver problemas reais de arquitetura e l√
 
 ## Autor
 Feito por Talita Oliveira  
-LinkedIn: https://www.linkedin.com/in/talita-oliveira-401b41311/
+LinkedIn: https://www.linkedin.com/in/talitaoagostinho
